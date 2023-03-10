@@ -1,0 +1,34 @@
+#Kubernetes?
+Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides a flexible and scalable architecture that allows you to run, manage, and monitor containers in a clustered environment.
+
+Advantages of using Kubernetes?
+
+#Scalability: Kubernetes allows you to easily scale your application up or down based on demand.
+#High_availability: Kubernetes provides a highly available environment for your applications.
+#Flexibility: Kubernetes supports multiple container runtimes and can run on a variety of infrastructures.
+#Resource_optimization: Kubernetes ensures that resources are used efficiently and optimally.
+#Self_healing: Kubernetes can detect and automatically recover from failures in your applications.
+
+#Pod in Kubernetes?
+A pod is the smallest unit of deployment in Kubernetes. It is a logical host for one or more containers and represents a single instance of a running process in a cluster.
+
+#Deployment in Kubernetes?
+A deployment in Kubernetes is a resource object that manages the deployment of a containerized application. It provides declarative updates for pods and replica sets.
+
+#Service in Kubernetes?
+A service in Kubernetes is an abstraction that defines a logical set of pods and a policy by which to access them. It provides a stable IP address and DNS name for pods, and allows them to be accessed by other pods or external services.
+
+#Namespace in Kubernetes?
+A namespace in Kubernetes is a way to partition a single cluster into multiple virtual clusters. It provides a way to organize and isolate resources within a cluster.
+
+#Config_map in Kubernetes?
+A config map in Kubernetes is a key-value store that can be used to store configuration data that is consumed by applications running in a cluster.
+
+#Secret in Kubernetes?
+A secret in Kubernetes is a way to store and manage sensitive information, such as passwords, API keys, and certificates. Secrets are stored securely within a cluster and can be accessed by pods and containers.
+
+#Node in Kubernetes?
+A node in Kubernetes is a physical or virtual machine that is part of a cluster. It runs the Kubernetes runtime environment and is responsible for running pods.
+
+#Container in Kubernetes?
+A container in Kubernetes is a lightweight, portable, and self-contained runtime environment that includes everything needed to run an application, including code, dependencies, and libraries. Containers are deployed and managed by Kubernetes.
